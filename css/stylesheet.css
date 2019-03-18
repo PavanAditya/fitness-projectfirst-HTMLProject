@@ -1,0 +1,148 @@
+.split 
+{
+    height: 750px;
+    width: 50%;
+    position: absolute;
+    top: 20;
+}
+            
+.left 
+{
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.555);
+}
+  
+.right 
+{
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.555);
+}
+
+.centered
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered img 
+{
+    border-radius: 50%;
+}
+  
+.h1 a
+{
+    font-size: 100px;
+    color:rgb(0, 0, 0);
+    height: 300px;
+    text-align: center;
+}            
+
+body 
+{
+    background-image: url("C:/Users/M1050962/Pictures/html photos/gym-guy.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.blur
+{
+    background-color: rgba(255, 255, 255, 0.555);
+}
+
+.foot
+{
+    color:rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    height: 80px;
+}
+
+.marqueer
+{
+    height: 40px;
+    font-size: 200%;    
+    background-color: #333;
+    color: honeydew;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav 
+{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+  
+.nav a 
+{
+    float: left;
+    color: honeydew;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: burlywood;
+    font-size: 17px;
+}
+  
+.nav a:hover 
+{
+    background-color: rgba(255, 154, 154, 0.397);
+    color: aliceblue;
+}
+
+.table1
+{
+    text-align: center;
+    vertical-align: middle; 
+}
+
+input[type = text]
+{
+    text-align: center;
+    width: 20%;
+    padding: 8px;
+    border: 2px solid rgb(5, 5, 5);
+    border-radius: 4px;
+    background-color: rgba(112, 182, 209, 0.199);
+    color: rgb(0, 0, 0);
+}
+
+input[type = number]
+{
+    text-align: center;
+    width: 20%;
+    padding: 8px;
+    border: 2px solid rgb(5, 5, 5);
+    border-radius: 4px;
+    background-color: rgba(112, 182, 209, 0.199);
+    color: rgb(0, 0, 0);
+}
+
+input[type = date]
+{
+    text-align: center;
+    width: 20%;
+    padding: 8px;
+    border: 2px solid rgb(5, 5, 5);
+    border-radius: 4px;
+    font-size: 150%;
+    background-color: rgba(112, 182, 209, 0.199);
+    color: rgb(0, 0, 0);
+}
+
+input[type = submit]
+{
+    text-align: center;
+    width: 20%;
+    font-size: 150%;
+    padding: 8px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    background-color: rgb(17, 16, 16);
+    color: rgb(170, 169, 169);
+}
